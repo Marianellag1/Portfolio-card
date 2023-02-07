@@ -4,43 +4,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css"
-    crossorigin="anonymous">
+  <!-- CSS only -->
   <link rel="icon" type="image/png" sizes="32x32" href="/Assets/Images/favicon-32x32.png">
-  <link rel="stylesheet" href="/Assets/css/style.css">
+  <link rel="stylesheet" href="./Assets/css/style.css">
   <title>Frontend Mentor | Profile card component</title>
 
 </head>
 
 <body>
   <main>
-    <div class="card" style="width: 300px;">
-      <div class="card-divider">
-        <img src="/Assets/Images/bg-pattern-card.svg" alt="background-img">
+    <div class="box">
+      <div class="one">
+        <img id="color" src="./Images/bg-pattern-card.svg" alt="background color blue">
+        <img id="picture" src="./Images/image-victor.jpg" alt="users profile picture">
+        <h1>Victor Crest<span class="age">26</span></h1>
+        <p>London</p>
       </div>
-      <img src="/Assets/Images/image-victor.jpg" class="victor">
-      <div class="card-section">
-        <h1>Victor Crest <span class="age">26</span></h1>
-        <h2>London</h2>
+
+      <div class="two">
+        <div class="followers social">
+          <h2>80K</h2>
+          <p> Followers</p>
+        </div>
+
+        <div class="likes social">
+          <h2>803K</h2>
+          <p>Likes</p>
+        </div>
+
+        <div class="photos social">
+          <h2>1.4K</h2>
+          <p>Photos</p>
+        </div>
+
       </div>
-      <section class="grid-x grid-margin-x following">
-        <div class="cell small-4">
-          <h3 >80K</h3>
-          <span style="letter-spacing: 2px;"> Followers</span>
-        </div>
-        <div class="cell auto">
-          <h3>803K</h3>
-          <span style="letter-spacing: 2px; margin-left: 13px;">Likes</span>
-        </div>
-        <div class="cell auto">
-          <h3>1.4K</h3>
-          <span style="letter-spacing: 2px; margin-left: 8px;">Photos</span>
-        </div>
-      </section>
+
     </div>
-
-
   </main>
+
   <footer>
     <div class="attribution footer">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
